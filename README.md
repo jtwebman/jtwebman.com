@@ -1,12 +1,12 @@
 # JTWebMan.com site
 
-This is jsut the source code for my jtwebman.com site. I am using DocPad to build it out.
+This is my personal website built with [DocPad](https://docpad.org/)
 
 ## License
 
 The MIT License (MIT)
 
-Copyright &copy; 2015+ JTWebMan, Inc., Jeff Turner <jtwebman@gmail.com>
+Copyright &copy; 2015+ JTWebMan, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

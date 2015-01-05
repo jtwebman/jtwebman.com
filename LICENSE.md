@@ -2,7 +2,7 @@
 
 The MIT License (MIT)
 
-Copyright &copy; 2015+ JTWebMan, Inc., Jeff Turner <jtwebman@gmail.com>
+Copyright &copy; 2015+ JTWebMan, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
