@@ -1,6 +1,6 @@
 ---
-title: "Home"
-isPage: true
+title: "Welcome"
+layout: "default"
 pageSort: 1
 ---
 

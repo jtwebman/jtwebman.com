@@ -1,7 +1,7 @@
 var docpadConfig;
 
 docpadConfig = {
-  poweredByDocPad: false,
+  poweredByDocPad: true,
   templateData: {
     site: {
       title: "JTWebMan"
@@ -16,11 +16,16 @@ docpadConfig = {
   },
   collections: {
     pages: function() {
-      return this.getCollection("html").findAllLive({ isPage: true },[ { pageSort: 1 } ]).on("add", function(model) {
-        return model.setMetaDefaults({
-          layout: "default"
-        });
-      });
+      return this.getCollection("html").findAllLive({ 
+        layout: { $has: 'page' } 
+      }, [ 
+        { sort: 1 } 
+      ]);
+    }
+  },
+  plugins: {
+    cleanurls: {
+        trailingSlashes: true
     }
   }
 };
