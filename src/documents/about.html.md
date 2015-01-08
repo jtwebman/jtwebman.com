@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: "page"
-pageSort: 1
+sort: 4
 ---
 
 I like long walks on the beach. **Plus I rock at DocPad!**

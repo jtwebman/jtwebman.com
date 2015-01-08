@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= @getPreparedTitle() %></title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <%- @getBlock("meta").toHTML() %>
+  <%- @getBlock("styles").add(["//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css","//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css","//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css","/styles/site.css"]).toHTML() %>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="/images/logo.png" border="0" class="nav-logo" /></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <% for page in @getCollection("pages").toJSON(): %>
+            <li class="<%= if page.id is @document.id then 'active' else '' %>">
+              <a href="<%= page.url %>">
+                  <%= page.title %>
+              </a>
+            </li>
+          <% end %>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://facebook.com/jtwebman"><i class="fa fa-facebook-square"></i></a></li>
+          <li><a href="http://twitter.com/jtwebman"><i class="fa fa-twitter-square"></i></a></li>
+          <li><a href="http://github.com/jtwebman"><i class="fa fa-github-square"></i></a></li>
+          <li><a href="http://instagram.com/jtwebman"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="http://youtube.com/jtwebman"><i class="fa fa-youtube-square"></i></a></li>
+
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  <div id="wrap">
+    <%- @content %>
+  </div>
+  <footer class="footer navbar-inverse navbar-fixed-bottom">
+    <div class="container">
+      <div class="muted credit">
+        <p>Built using <a href="https://docpad.org/">DocPad</a> and you can find the source code on my <a href="https://github.com/jtwebman/jtwebman.com">GitHub</a>.</p>
+        <p>Copyright &copy; 2015 JTWebMan, Inc., The MIT License (<a href="https://github.com/jtwebman/jtwebman.com/blob/master/LICENSE.md">MIT</a>)</p>
+      </div>
+    </div>
+  </footer>
+  <script src=></script>
+  <%- @getBlock("scripts").add(["//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js", "/scripts/script.js"]).toHTML() %>
+</body>
+</html>

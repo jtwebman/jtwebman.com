@@ -1,0 +1,9 @@
+---
+layout: "default"
+---
+<article>
+  <h1><%= @document.title %></h1>
+  <div class="byline">By <a href="/authors/<%= @document.author.toLowerCase() %>"><%= @document.author %></a> on <%= @document.date.toLocaleDateString() %></div>
+
+  <%- @content %>
+</article>
