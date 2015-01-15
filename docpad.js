@@ -5,9 +5,11 @@ var docpadConfig;
 docpadConfig = {
   poweredByDocPad: true,
   maxAge: 3600000,
+  ignorePaths: ['/ignore'],
   templateData: {
     site: {
-      title: "JTWebMan"
+      title: "JTWebMan",
+      url: "http://www.jtwebman.com"
     },
     getPreparedTitle: function () {
       if (this.document.title) {
@@ -49,6 +51,12 @@ docpadConfig = {
     },
     grunt: {
       warnOnError: true
+    },
+    sitemap: {
+      cachetime: 600000,
+      changefreq: 'daily',
+      priority: 0.5,
+      filePath: 'sitemap.xml'
     }
   }
 };

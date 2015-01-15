@@ -8,6 +8,10 @@ module.exports = function (grunt) {
         src: [
           'out/**/*.js'
         ],
+        exclude: [
+          'out/scripts/bootstrap.js',
+          'out/scripts/jquery.js'
+        ],
         directives: {
           indent: 2
         },
@@ -22,7 +26,9 @@ module.exports = function (grunt) {
           '*.json'
         ],
         exclude: [
-          'out/**/*.js'
+          'out/**/*.js',
+          'src/files/scripts/bootstrap.js',
+          'src/files/scripts/jquery.js'
         ],
         directives: {
           node: true,

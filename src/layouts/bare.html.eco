@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <%- @getBlock("meta").toHTML() %>
-  <%- @getBlock("styles").add(["//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css","//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css","//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css","/styles/site.css"]).toHTML() %>
+  <%- @getBlock("styles").add(["/styles/site.css"]).toHTML() %>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -58,6 +58,6 @@
       </div>
     </div>
   </footer>
-  <%- @getBlock("scripts").add(["//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js", "/scripts/script.js"]).toHTML() %>
+  <%- @getBlock("scripts").add(["/scripts/jquery.js", "/scripts/bootstrap.js", "/scripts/script.js"]).toHTML() %>
 </body>
 </html>

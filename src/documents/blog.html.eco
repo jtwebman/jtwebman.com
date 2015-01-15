@@ -7,10 +7,11 @@ pagedCollection: 'posts'
 pageSize: 3
 ---
 <% for document in @getPageCollection('posts').toJSON(): %>
-  <article class="post">
+  <article>
     <h1><a href='<%=document.url%>'><%= document.title %></a></h1>
-    <div class="post-date"><%= document.date.toLocaleDateString() %></div>
-    <div class="post-content"><%- @getCuttedContent(String(document.contentRenderedWithoutLayouts)) %></div>
+    <div class="byline">By <a href="/authors/<%= document.author.toLowerCase() %>"><%= document.author %></a> on <%= document.date.toLocaleDateString() %></div>
+    <hr />
+    <%- @getCuttedContent(String(document.contentRenderedWithoutLayouts)) %>
     <% if @hasReadMore(String(document.contentRenderedWithoutLayouts)): %>
       <a class="btn btn-default" href="<%= document.url %>" role="button">Read More »</a>
     <% end %>
