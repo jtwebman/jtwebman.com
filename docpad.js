@@ -43,6 +43,13 @@ docpadConfig = {
       }, [
         { date: -1 }
       ]);
+    },
+    projects: function () {
+      return this.getCollection("html").findAllLive({
+        layout: { $has: 'project' }
+      }, [
+        { sort: 1 }
+      ]);
     }
   },
   plugins: {

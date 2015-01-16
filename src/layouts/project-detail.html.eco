@@ -1,0 +1,15 @@
+---
+layout: "default"
+---
+<article>
+  <h1><%= @document.project %></h1>
+  <ul class="project-details-list">
+  <% for document in @getCollection("html").findAllLive({ layout: { $has: 'project-detail' }, project: { $has: @document.project } }, [ { sort: 1 } ]).toJSON(): %>
+    <li><a href='<%=document.url%>'><%= document.title %></a></li>
+  <% end %>
+  </ul>
+  <h2><%= @document.title %></h2>
+  <%- @content %>
+  <hr />
+
+</article>
