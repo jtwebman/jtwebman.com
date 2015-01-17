@@ -5,7 +5,7 @@ project: "Brand Tracker"
 sort: 2
 ---
 
-## Actors
+## List of Actors
 
 1. User
 1. The System
@@ -77,11 +77,3 @@ sort: 2
 **Actor:** The System  
 **Secondary Actors:** Twitter, Facebook, Instagram, Pintrest, and Youtube  
 **Scenario:** The system will keep track of all the different social media usernames it needs to track. Each day it will go out to each of the social media sites API's and find the total followers or likes that they have. It will then store them so that they can be used to track they brands changes over time.
-
----
-
-## History
-
-| When | Who | What |
-| ---- | --- | ---- |
-| 2015-01-15 | JT | Initial requirement writeup |

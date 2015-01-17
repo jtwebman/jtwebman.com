@@ -5,8 +5,6 @@ project: "Brand Tracker"
 sort: 1
 ---
 
-## Requirements
-
 - The system must be able to keep track of brands website, email, location, and their social media feeds associated to them
 - The system must keep daily counts of their followers on each social media account these social media sites
   - Twitter
@@ -26,9 +24,3 @@ sort: 1
 
 1. Do we need to worry about internationalization and localization?
 1. Can a brand have more then one of the same social media account? If yes do we add them together for the dashboard or if not how do we compare them to other brands?
-
-## History
-
-| When | Who | What |
-| ---- | --- | ---- |
-| 2015-01-15 | JT | Initial requirement writeup |

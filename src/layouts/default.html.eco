@@ -5,7 +5,6 @@ layout: "bare"
   <div class="row">
     <div class="col-md-8">
       <%- @content %>
-      <div id="disqus_thread"></div>
     </div>
     <div class="col-md-4 sidebar">
       <%- @partial('sidebar') %>

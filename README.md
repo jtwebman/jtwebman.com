@@ -2,6 +2,9 @@
 
 This is my personal website built with [DocPad](https://docpad.org/)
 
+[![Build Status](https://travis-ci.org/jtwebman/jtwebman.com.svg?branch=master)](https://travis-ci.org/jtwebman/jtwebman.com)
+[![Dependency Status](https://david-dm.org/jtwebman/jtwebman.com.svg)](https://david-dm.org/jtwebman/jtwebman.com)
+
 ## License
 
 The MIT License (MIT)
