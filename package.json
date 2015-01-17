@@ -11,6 +11,7 @@
     "url": "http://github.com/jtwebman/jtwebman.com.git"
   },
   "dependencies": {
+    "chai": "*",
     "docpad": "~6.69.2",
     "docpad-plugin-cleanurls": "~2.7.0",
     "docpad-plugin-eco": "~2.1.0",
@@ -24,10 +25,12 @@
     "docpad-plugin-sitemap": "~2.2.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
-    "grunt-jslint": "^1.1.12"
+    "grunt-jslint": "^1.1.12",
+    "mocha": "*"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
-    "start": "node_modules/docpad/bin/docpad-server"
+    "start": "node_modules/docpad/bin/docpad-server",
+    "test": "node_modules/mocha/bin/mocha --reporter list"
   }
 }
