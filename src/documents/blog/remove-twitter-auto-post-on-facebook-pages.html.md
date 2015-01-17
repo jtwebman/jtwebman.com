@@ -1,6 +1,6 @@
 ---
 title: "Remove Twitter Auto Post on Facebook Pages"
-layout: "blog"
+layout: "post"
 date: 2011-5-23 18:03:17 -8
 author: "JT"
 tags: "Twitter, Facebook, Auto Post"

@@ -10,10 +10,12 @@ module.exports = function (grunt) {
         ],
         exclude: [
           'out/scripts/bootstrap.js',
-          'out/scripts/jquery.js'
+          'out/scripts/jquery.js',
+          'out/scripts/google-analytics.js'
         ],
         directives: {
-          indent: 2
+          indent: 2,
+          browser: true
         },
         option: {
           failOnError: false
@@ -27,8 +29,7 @@ module.exports = function (grunt) {
         ],
         exclude: [
           'out/**/*.js',
-          'src/files/scripts/bootstrap.js',
-          'src/files/scripts/jquery.js'
+          'src/files/scripts/*.js'
         ],
         directives: {
           node: true,

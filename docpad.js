@@ -39,7 +39,7 @@ docpadConfig = {
     },
     posts: function () {
       return this.getCollection("html").findAllLive({
-        layout: { $has: 'blog' }
+        layout: { $has: 'post' }
       }, [
         { date: -1 }
       ]);
