@@ -26,13 +26,24 @@ docpadConfig = {
     },
     hasReadMore: function (content) {
       return content.search('<!-- Read more -->') >= 0;
+    },
+    getProject: function (projectTitle) {
+      return this.getCollection("html").findAllLive({
+        layout: { $has: 'project' },
+        title: { $has: projectTitle }
+      }, [ { sort: 1 } ]).toJSON()[0];
+    },
+    getProjectsDetails: function (projectTitle) {
+      return this.getCollection("html").findAllLive({
+        layout: { $has: 'project-detail' },
+        project: { $has: projectTitle }
+      }, [ { sort: 1 } ]).toJSON();
     }
   },
   collections: {
     pages: function () {
       return this.getCollection("html").findAllLive({
-        layout: { $has: 'page' },
-        isPagedAuto: { $ne: true }
+        layout: { $has: 'page' }
       }, [
         { sort: 1 }
       ]);
