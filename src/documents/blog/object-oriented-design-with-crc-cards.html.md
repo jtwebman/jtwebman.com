@@ -27,8 +27,8 @@ Now don't get me wrong, I have been gathering requirements but most of the time 
 
 [Brand Tracker Requirements](/projects/brand-tracker/requirements/)
 
-For the next step I needed to describe the application so I went ahead and wrote up some user stories and some use cases for the app. It has been 5 plus years since I have written a correct use case but I would love your feed back on how well or bad I did so far.
+For the next step I needed to describe the application so I went ahead and wrote up some user stories and some use cases for the app. It has been 5 plus years since I have written a correct use case but I would love your feedback on how well or bad I did so far.
 
 [Brand Tracker Use Cases](/projects/brand-tracker/user-stories-and-use-cases/)
 
-This didn't take more then an hour to write up and I ended up sticking with the CRC cards I made as the feature image on this post. It is a little different than what I have now for the site and it fixes some of the issues I have been having. So lesson learned, I am using paper and a little design for all the projects I work on going forward.
+This didn't take more than an hour to write up and I ended up sticking with the CRC cards I made as the feature image on this post. It is a little different than what I have now for the site and it fixes some of the issues I have been having. So lesson learned, I am using paper and a little design for all the projects I work on going forward.
