@@ -47,7 +47,7 @@ This trips up new Javascript programmers. Actually, this gets many senior progra
 
 ## No Types
 
-This is probably the most controversial part of the language. Many people believe that types save you errors. I would agree to some degree but they limit you on what you can do with the language as well. Types make you have to use inheritance trees or jump through hopes to add flexibility to objects. Again you can use JSLint or JSHint to check your code for changing types but then get the flexibility of objects that can change at runtime. I actually think this and object literals are the best parts of the language and why it will stay the top language for me for a long time.
+This is probably the most controversial part of the language. Many people believe that types save you errors. I would agree to some degree but they limit you on what you can do with the language as well. Types make you have to use inheritance trees or jump through hoops to add flexibility to objects. Again you can use JSLint or JSHint to check your code for changing types but then get the flexibility of objects that can change at runtime. I actually think this and object literals are the best parts of the language and why it will stay the top language for me for a long time.
 
 ## Prototypical Inheritance
 
