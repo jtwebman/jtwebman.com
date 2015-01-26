@@ -13,3 +13,5 @@ ignore: true
 1. Hyde Site Generator
 1. How to become a programmer
 1. 1855, Daniel McCallum wrote a letter to his bosses at the New York & Erie Railroad
+1. Rx vs Promises vs Callbacks vs Events Emit
+1. Start Doing Functional Programming with Reactive Extensions
