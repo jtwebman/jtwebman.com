@@ -15,3 +15,4 @@ ignore: true
 1. 1855, Daniel McCallum wrote a letter to his bosses at the New York & Erie Railroad
 1. Rx vs Promises vs Callbacks vs Events Emit
 1. Start Doing Functional Programming with Reactive Extensions
+1. Why I am build Hyde
