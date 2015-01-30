@@ -22,6 +22,10 @@ This is where the problems starts. I have been in many of these meetings and the
 - Big frameworks Bad
 - Silo Sections Good
 - Composition Over Inheritance
+- Problems get big and once that happens it's hard for any one person to understand it all
+- Declarative / immutable makes code far more predicable.
+
+Stick to theses and developers are more confident and when you get new programmers on your team they will be able to make changes to parts of one app and know they are not going to break 10 other things.
 
 ## Reinventing the Wheel
 
@@ -32,11 +36,13 @@ This is where the problems starts. I have been in many of these meetings and the
 - This is how we have always done it
 - I have worked here 13 years why do I have to change
 - Not willing to let bad apples go
+- The more people you have the slower you go
 
 ## 10 Managers To Sign Off
 
 - Why does every team at at 60,000 employee company have to do it the same way?
 - Does the little you save on doing everything the same hurt you?
+- Write Once Run anywhere is a myth
 
 ## In Closing
 
