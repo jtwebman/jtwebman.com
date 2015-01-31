@@ -7,45 +7,50 @@ tags: "Enterprise, Software, Project, Fail"
 featureImage: ""
 ignore: true
 ---
-This week I wanted to talk about how I see enterprise software projects fail. I have work for a few big companies now and seen many software projects get to the point where every-time we fix one thing 10 other things break. I have even been a part of their design, so I am not saying I am not a part of it. I still feel bad if anyone has to maintain the code I wrote 10 years ago. I just wanted to talk about just a few of the reasons I see enterprises and their software projects fail. Don't get me wrong they all mostly do what they were built to do and if you put a good enough sales force behind them they all seem be able to sell. That is on the surface but if you take a look under the hood what you see might just scare you.
+This week lets talk about 5 reasons enteprise software fails. I have worked for many big companies now and seen many projects get to the point where every time we fix one thing 10 other things break. I have even been a part of their design, so I am not saying I am not a part of it. I still feel bad if anyone that has to maintain the code I wrote 10 years ago. I just want to point how they got this way and help you find a way to get the projects back on track.
 
-## Wasn't Design To Do What It Does
+## Wasn't Designed To Do What It Does
 
-If these software where projects are in this broken state, they almost always do 90%+ more then what they were originally built to do. We as software programmers do set out to do the right thing. I don't think any of use think we are designing or building ourselves a nightmare to maintain. We draw on the white boards and design a system with the few requirements we have gotten from the project manager or sales team. Its perfect, well we think it is, so we set off and build it.
+This is just a product of doing business. Processes change and so does the software we write. I also think most programmers know this. It is why we over engineer trying to make a feature more adjustable. The issues is we tend to get this wrong and in doing so add more logic we have to maintain.
 
-We come back a month later to show off what we have so far and they say. Well it is close but what if it could do this? Or can it do that? We say sure, and go off and put those features in. This happens for a few months and by this time the system is very different. Then you ask for one more thing but it is a big change so we say sure we can do it but we need to refactor (re-write) a bunch of the code to do it correctly as the system has changed from what we originally talked about.
+Over engineering isn't the only reason though. There is always a few times in a product when it has change so much that it might be time to do a serous refactoring of the code. This is were the wheels start to fall off. If you have designed the system well you can do it and not effect too much. If you have design the system poorly ether because of lack of time, pressure from upper management, or any other reason you might be in trouble.
 
-This is where the problems starts. I have been in many of these meetings and the answer 90% of the time is we can't do that. What can you do if you don't refactor? I am not sure how you fix this. I personally really push to let us make the change correctly. Remember this isn't a startup where if we don't go live next week we are all on the street. This is a huge company that can afford a little extra time to get it correct, or at least to a point where it is maintainable. This doesn't happen and it is like a broken window in an abandon building. Once there is one it isn't long till they are all broken.
+Now imagine this has happen a few times in the products lifetime and management or the programmers have decided not to refactor, this is how software gets to the point of when you change one thing you break 10 things.
 
-## Not Built To Change
+One way to fix this is to try and sell a refactor of the whole system. I have tried this many times before but most of the time will get shot down. This is for good reason. It isn't the way to fix the problem.
 
-- Big frameworks Bad
-- Silo Sections Good
-- Composition Over Inheritance
-- Problems get big and once that happens it's hard for any one person to understand it all
-- Declarative / immutable makes code far more predicable.
+Another choice would be pull a small portion of the application out. Take the whole section all the way to the database from the UI and just refactor that section. Make sure both versions do the same thing so if another section is dependent on the data being is a place it is and still works. I call this siloing and it is one of the easiest way to fix a legacy application.
 
-Stick to theses and developers are more confident and when you get new programmers on your team they will be able to make changes to parts of one app and know they are not going to break 10 other things.
+## Big Frameworks
+
+Many teams end up build huge big frameworks that do everything. This is just crazy. Yes it does save time at the beginning of the project but what happens when something needs to change? Normally you just go and change it but if you have 30 different sections in your app using that same framework. You end up being very limited in what you can change because changing it might break some of them.
+
+Some programmers will cry wolf here and say well that is why I write unit tests. Yes they might save you as long as you have thought of every possible thing but I know I am not that smart so I wouldn't trust this. Even if I was that smart I want the code I write to be readable and modifiable by other programmers as well so it might not stay that way for long.
+
+Instead I find building smaller modules much easier. Make sure they are not dependent on anything if you can and if not keep the dependencies on light interfaces or a light service layer. If you follow the advice above and silo sections of your application. Then one part of the system should be able to replace any one of their modules or even written in a different language and the rest of the system will not care. This will take more time at the beginning but the more you do it the quicker you will get at it. 
+
+Also don't go overboard on this, there can be to many modules as well, it just takes time to learn the correct balance and it can be different depending on the team and languages used.
 
 ## Reinventing the Wheel
 
-- We can't use Open Source
+This is one of the saddest reasons. There are many awesome highly tested open source projects that do many different things in the language of your choice but so many enteprise companies don't allow open source. Even worse we as programmers think they can do it better. This is almost never the case. I am guilty of this. Some companies also think they will end up supporting the software as there is no one they can call up when it breaks. This is just not the case. If you break things into smaller modules, and something doesn't work, the team can always just replace that part.
+
+If it isn't allowed at all know that it will be a slow process but do your best to sell management and the lawyers on how it will better the customer and their bottom line to allow for open source. Keep in mind also that there are some open source licenses that make it very hard for a company to use them but there are many that don't. Most only require that you include the license in your software as well for their code. It don't mean you have to make your code open source as well. [Wikipedia](http://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses) has a great article with tables on what you can and can't do with many licenses so do you best to educate yourself and management as it really can save you many hours of development and bug fixes.
 
 ## Not Open to Change
 
-- This is how we have always done it
-- I have worked here 13 years why do I have to change
-- Not willing to let bad apples go
-- The more people you have the slower you go
+I have seen it so many times before. Sometimes it is a programmer that has been on the teams since day one. Sometimes it is a manager who thinks they know best. Once there is one person on the team that isn't open to change it hurts the whole team and company. Programming is a changing world. We don't build applications the same way we did 3 years ago, let alone how we built them 13 years ago. It is actually why I like programming. I love learning new ways to do things but not everyone is like me.
+
+The best way to fix this is to show you are not the only one. Convince others on the team that we should change. Sometimes you just need to ask them why they feel that way because maybe you both believe in the same thing you just say it differently. You can also share articles written by others on it but be easy on this. Sometimes people have to come to the conclusion on their own before they are willing to change so have patience. If you don't you will only make things worse, I know I have done it the wrong way many times.
 
 ## 10 Managers To Sign Off
 
-- Why does every team at at 60,000 employee company have to do it the same way?
-- Does the little you save on doing everything the same hurt you?
-- Write Once Run anywhere is a myth
+The title says it all. Big companies means many managers. As a manager you are their to make sure the product gets out the door and in good condition. You should be looking out for the employees you have under you and the customer. It is also your job to push back and say no sometimes. No we can't do feature A unless we change the date or we need to take out feature B if you want to get in feature A. I know it is possible I have work many of these managers in the past. They understand the condition their project is in and make sure it is known farther up the latter. If you are a VP or Director and you have a manager under you that never says no then you might have an issue.
+
+There are times when programmers have to step it up and get something out the door on a hard to hit deadline but this shouldn't be a every release thing for a project that is 10+ years old. Most programmers work hard to get the best product they can out the door but if everything take many managers approval it is less likely to happen. Give us some autonomy and I guarantee it will come back 10 fold to help the customer and the product.
 
 ## In Closing
 
-This was a little bit of a rant, and for legal reasons I need to say this is my view and not my current, past, or future companies view or issues. I just feel big enterprise companies could learn from these mistakes. There is no reason why you can changed now. Just giving unlimited vacation, free soda, and free breakfast isn't going to work. Cutting back on coffee and tea and holiday parties is even worse though. So at least try to care about your employees. If you don't none of the good ones will stay long.
+For legal reasons I need to say this is my view and not my current, past, or future companies view or issues. I just feel big enterprise companies have their own issues and most of them can be fixed even if it seems like it can't right now.
 
-The real goal though is to make awesome software and to stay at the top. Not to let a small startup with 5 people kick your 100+ person team. To do that you need to have a mission everyone get get behind and to make it a team effort. We are all in this together! If you can find a way to create that it will not be hard to keep great people around and to ship awesome, ever changing, software.
+The real goal though is to make awesome, ever changing, bug free software that customers love. To do that you might need to change as well as convince others to change. This isn't going to be easy and sometimes will not work. In those cases it might just be better to move on, you can't save them all.
