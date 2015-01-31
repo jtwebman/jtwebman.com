@@ -58,4 +58,4 @@ For legal reasons I need to say this is my view and not my current, past, or fut
 
 The real goal though is to make awesome, ever changing, bug-free software that customers love. To do that you might need to change as well as convince others to change. This isn't going to be easy and sometimes will not work. In those cases it might just be better to move on, you can't save them all.
 
-Let me know in the comments on what you think? Do you see the same issues? Have you fixed them before and if so is their any advice you can give?
+Let me know in the comments on what you think? Do you see the same issues? Have you fixed them before and if so is there any advice you can give?
