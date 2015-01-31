@@ -4,8 +4,7 @@ layout: "post"
 date: 2015-01-30 17:27:00 -8
 author: "JT"
 tags: "Enterprise, Software, Project, Fail"
-featureImage: ""
-ignore: true
+featureImage: "5-reasons-enterprise-software-projects-fail.jpg"
 ---
 This week let's talk about 5 reasons I see enteprise software projects failing. I have worked for many big companies now and seen many projects get to the point where every time we fix one thing 10 other things break. I have even been a part of their design, so I am not saying I am not a part of it. I still feel bad for anyone that has to maintain the code I wrote 10 years ago. I just want to point out some of the ways they got this way and help you find a way to get the projects back on track.
 
