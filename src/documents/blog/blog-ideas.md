@@ -16,4 +16,4 @@ ignore: true
 1. Rx vs Promises vs Callbacks vs Events Emit
 1. Start Doing Functional Programming with Reactive Extensions
 1. Why I am build Hyde
-1. How Enteprise Apps fail
+1. The Perfect Human Diet
