@@ -43,7 +43,8 @@ docpadConfig = {
   collections: {
     pages: function () {
       return this.getCollection("html").findAllLive({
-        layout: { $has: 'page' }
+        layout: { $has: 'page' },
+        isPagedAuto: { $ne: true }
       }, [
         { sort: 1 }
       ]);
