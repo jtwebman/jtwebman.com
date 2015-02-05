@@ -14,3 +14,5 @@ ignore: true
 1. The Perfect Human Diet
 1. I am moving to a new job
 1. Fears about moving jobs
+1. Living in LA
+1. JavaScript to C#, Java, or etc...
