@@ -16,3 +16,5 @@ ignore: true
 1. Fears about moving jobs
 1. Living in LA
 1. JavaScript to C#, Java, or etc...
+1. Titfortat
+1. 
