@@ -6,7 +6,7 @@ author: "JT"
 tags: "Enterprise, Software, Project, Fail"
 featureImage: "5-reasons-enterprise-software-projects-fail.jpg"
 ---
-This week let's talk about 5 reasons I see enteprise software projects failing. I have worked for many big companies now and seen many projects get to the point where every time we fix one thing 10 other things break. I have even been a part of their design, so I am not saying I am not a part of it. I still feel bad for anyone that has to maintain the code I wrote 10 years ago. I just want to point out some of the ways they got this way and help you find a way to get the projects back on track.
+This week let's talk about 5 reasons I see enterprise software projects failing. I have worked for many big companies now and seen many projects get to the point where every time we fix one thing 10 other things break. I have even been a part of their design, so I am not saying I am not a part of it. I still feel bad for anyone that has to maintain the code I wrote 10 years ago. I just want to point out some of the ways they got this way and help you find a way to get the projects back on track.
 
 ## Wasn't Designed To Do What It Does
 
@@ -32,7 +32,7 @@ Also don't go overboard on this. There can be too many modules as well. It just 
 
 ## Reinventing the Wheel
 
-This is one of the saddest reasons. There are many awesome highly tested open source projects that do many different things in the language of your choice but so many enteprise companies don't allow open source. Even worse we as programmers think they can do it better. This is almost never the case. I know am guilty of this from time to time.
+This is one of the saddest reasons. There are many awesome highly tested open source projects that do many different things in the language of your choice but so many enterprise companies don't allow open source. Even worse we as programmers think they can do it better. This is almost never the case. I know i'm guilty of this from time to time.
 
 Some companies also think they will end up supporting the open source software as there is no one they can call up if it breaks. This is just not the case. If you break things into smaller modules, and something doesn't work, the team can always just replace that part. Even better you have a team of programmers who can easily fix it as it is open source.
 
