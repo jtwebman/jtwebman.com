@@ -9,7 +9,6 @@ ignore: true
 1. How to become a programmer
 1. 1855, Daniel McCallum wrote a letter to his bosses at the New York & Erie Railroad
 1. Rx vs Promises vs Callbacks vs Events Emit
-1. Start Doing Functional Programming with Reactive Extensions
 1. Why I am build Hyde
 1. The Perfect Human Diet
 1. I am moving to a new job
@@ -20,3 +19,4 @@ ignore: true
 1. Get Started in Elixir
 1. Why I choose not to use recruiters
 1. Hello World Elixir
+1. Immutable vs mutable variables
