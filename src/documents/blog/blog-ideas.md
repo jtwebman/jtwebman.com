@@ -20,4 +20,4 @@ ignore: true
 1. Why I choose not to use recruiters
 1. Hello World Elixir
 1. Immutable vs mutable variables
-1. Last couple days
+1. When is it time to move companies?
