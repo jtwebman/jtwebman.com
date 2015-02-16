@@ -4,7 +4,7 @@ var docpadConfig;
 
 docpadConfig = {
   poweredByDocPad: true,
-  maxAge: 3600000,
+  maxAge: 3600,
   ignorePaths: ['/ignore'],
   templateData: {
     site: {
