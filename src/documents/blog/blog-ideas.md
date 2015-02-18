@@ -21,3 +21,4 @@ ignore: true
 1. Hello World Elixir
 1. Immutable vs mutable variables
 1. When is it time to move companies?
+1. Install Amazon Store App Android
