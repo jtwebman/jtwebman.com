@@ -23,3 +23,6 @@ ignore: true
 1. When is it time to move companies?
 1. Install Amazon Store App Android
 1. Build an Android App
+1. Flow-base programming
+1. Erlang vs Elixir
+1. Erlang isn't hard to learn
