@@ -6,6 +6,7 @@
   <title><%= @getPreparedTitle() %></title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <script src="//load.sumome.com/" data-sumo-site-id="ac16be444b6a4eb6a1c753fa189c0625239ea8a6dad0fbdcf49708448e51cddd" async="async"></script>
   <%- @getBlock("meta").toHTML() %>
   <%- @getBlock("styles").add(["/styles/site.css"]).toHTML() %>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -13,7 +14,6 @@
     <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script src="//load.sumome.com/" data-sumo-site-id="ac16be444b6a4eb6a1c753fa189c0625239ea8a6dad0fbdcf49708448e51cddd" async="async"></script>
 </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
