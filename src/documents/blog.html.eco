@@ -10,7 +10,7 @@ pageSize: 3
   <article>
     <h1><a href='<%=document.url%>'><%= document.title %></a></h1>
     <div class="byline">By <a href="/authors/<%= document.author.toLowerCase() %>"><%= document.author %></a> on <%= document.date.toLocaleDateString() %></div>
-    <img class="feature-image" title="<%= @document.title %>" src="/images/blog/<%= document.featureImage %>" />
+    <img class="feature-image" alt="<%= @document.title %>" title="<%= @document.title %>" src="/images/blog/<%= document.featureImage %>" />
     <hr />
     <%- @getCuttedContent(String(document.contentRenderedWithoutLayouts)) %>
     <% if @hasReadMore(String(document.contentRenderedWithoutLayouts)): %>
