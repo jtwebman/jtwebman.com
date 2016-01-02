@@ -1,15 +1,14 @@
 # JTWebMan.com site
 
-This is my personal website built with [DocPad](https://docpad.org/)
+This is my personal website / blog built with [Metalsmith](https://github.com/segmentio/metalsmith)
 
-[![Build Status](https://travis-ci.org/jtwebman/jtwebman.com.svg?branch=master)](https://travis-ci.org/jtwebman/jtwebman.com)
 [![Dependency Status](https://david-dm.org/jtwebman/jtwebman.com.svg)](https://david-dm.org/jtwebman/jtwebman.com)
 
 ## License
 
 The MIT License (MIT)
 
-Copyright &copy; 2015+ JTWebMan, Inc.
+Copyright &copy; 2015-2016 JTWebMan, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
