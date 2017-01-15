@@ -1,7 +1,0 @@
----
-layout: "default"
----
-<article>
-  <%- @partial('project-partial', { getProjectsDetails: @getProjectsDetails, project: @document, showTitleAsLink: false }) %>
-</article>
-<div id="disqus_thread"></div>
