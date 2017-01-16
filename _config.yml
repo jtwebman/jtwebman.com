@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: JT Turner
+subtitle: Software Engineer / Entrepreneur / Questioning the Status Quo
+description: Welcome to my site! You can contact me though all the social media links below.
+author: JT Turner
+language: en
+timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://jtwebman.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:title/
 permalink_defaults:
 
 # Directory
@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: blog
 category_map:
 tag_map:
 
@@ -63,9 +63,53 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: clean-jtwebman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Avatar Image
+avatar: https://www.gravatar.com/avatar/e87a056abd52a5d85a425b39c92b4a70?s=200
+
+# Favicon
+favicon: /favicon.ico
+
+# URL of the Home page image
+index_cover: /images/oragon-water.jpg
+
+# Social Accounts
+twitter_url: https://twitter.com/jtwebman
+twitter_handle: JTWebMan
+facebook_url: https://facebook.com/jtwebman
+github_url: https://github.com/jtwebman
+gitlab_url:
+linkedin_url: https://linkedin.com/in/jtwebman
+mailto:
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: JTWebMan
+
+# Top Menu
+menu:
+  Home: /
+  Archive: /archives
+  Github:
+    url: https://github.com/jtwebman
+    icon: github
+  LinkedIn:
+    url: https://linkedin.com/in/jtwebman
+    icon: linkedin
+  Twitter:
+    url: https://twitter.com/jtwebman
+    icon: twitter
+  Instagram:
+    url: https://instagram.com/jtwebman
+    icon: instagram
+  Facebook:
+    url: https://facebook.com/jtwebman
+    icon: facebook
+
+# Copyright
+copyright: JTWebMan, Inc.
