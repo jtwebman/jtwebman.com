@@ -20,6 +20,15 @@
                             Posted by <%- item.author %> on
                         <% } %>
                         <%= item.date.format(config.date_format) %>
+                        <% if (item.categories && item.categories.length) {  %>
+                            in <%- partial('article-categories', {item: item}) %>
+                        <% } %>
+                        <!-- Tags and categories -->
+                        <% if (item.tags && item.tags.length) { %>
+                        <div class="post-tags">
+                            <%- partial('article-tags', {item: item}) %>
+                        </div>
+                        <% } %>
                     </span>
                 </div>
             </div>
@@ -31,23 +40,6 @@
 <article>
     <div class="container">
         <div class="row">
-
-            <!-- Tags and categories -->
-           <% if (item.categories && item.categories.length || item.tags && item.tags.length) { %>
-                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
-                    <% if (item.tags && item.tags.length){ %>
-                        <%- partial('article-tags', {item: item}) %>
-                    <% } else { %>
-                        <%- partial('article-categories', {item: item}) %>
-                    <% } %>
-                </div>
-                <div class="col-lg-4 col-md-5 post-categories">
-                    <% if (item.tags && item.tags.length && item.categories && item.categories.length){ %>
-                        <%- partial('article-categories', {item: item}) %>
-                    <% } %>
-                </div>
-            <% } %>
-
             <!-- Gallery -->
             <% if (item.photos && item.photos.length){ %>
                 <%- partial('gallery') %>
