@@ -15,6 +15,9 @@
             Posted by <%- item.author %> on
         <% } %>
         <%= item.date.format(config.date_format) %>
+        <% if (item.categories && item.categories.length) {  %>
+            in <%- partial('article-categories', {item: item}) %>
+        <% } %>
     </p>
 </div>
 <hr>

@@ -7,7 +7,7 @@
                 <div class="site-heading">
                     <h1><%- config.title %></h1>
                     <div class="home-avatar">
-                      <img class="avatar" src="<%-  config.avatar || theme.avatar %>" width=120 height=120>
+                      <img class="avatar" src="<%- gravatar(config.avatar || theme.avatar, 120) %>" width=120 height=120>
                     </div>
                     <span class="subheading"><%- config.subtitle %></span>
                 </div>
@@ -17,11 +17,14 @@
 </header>
 
 <!-- Main Content -->
-<article>
-    <div class="container">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <%- page.content %>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <% page.posts.each(function(item){ %>
+                <%- partial('_partial/article-index', {item: item}) %>
+            <% }); %>
+
+            <%- partial('_partial/pagination') %>
         </div>
     </div>
-</article>
+</div>

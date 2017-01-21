@@ -7,6 +7,7 @@ tags:
   - languages
   - learning
 author: JT Turner
+comments: true
 ---
 I have learned many programming languages over the 28 years I have been programming. Here is a few in no particular order: Basic, C, C++, Java, C#, VB.Net, VBScript, Python, Ruby, JavaScript, SQL, Objective-C, Perl, Pascal, and this year I plan on learning Erlang and Elixir. I couldn't write an application in most of them today but I have read at least one book or worked through many tutorials online. As you can see I love learning and programming is huge passion of mine. I tell you this because I wanted to talk about why I have chosen to learn so many different programming languages and how it has help me. I hope in turn I can inspire and help you to learn as well.
 

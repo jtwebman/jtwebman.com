@@ -7,6 +7,7 @@ tags:
   - Gary Vaynerchuk
   - Self Discovery
 author: JT Turner
+comments: true
 ---
 A few months back I watch a video that Gary Vaynerchuk (Gary Vee) posted that really got me thinking and wanting to share it. At the time he wanted more then anything for people to be self-aware. Not just aware of their strengths but their weakness as well. At the time I was like that really isn’t me. I know what I am good at and what I am bad at, right? Well until this post and some of the things I have been working through the last few weeks I don’t think I did.
 

@@ -3,7 +3,7 @@ menu:
   Home: /
   Archives: /archives
   Github:
-    url: https://github.com/klugjo/hexo-theme-clean-blog
+    url: https://github.com/jtwebman
     icon: github
 
 # Title on top left of menu. Leave empty to use main blog title
@@ -15,15 +15,8 @@ index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/
 # Default post title
 default_post_title: Untitled
 
-# Comments. Choose one by filling up the information
-comments:
-  # Disqus comments
-  disqus_shortname:
-  # Facebook comments
-  facebook:
-    appid:
-    comment_count: 5
-    comment_colorscheme: light
+# Disqus comments
+disqus_shortname:
 
 # Google Analytics Tracking ID
 google_analytics:
@@ -43,5 +36,5 @@ gitlab_url:
 linkedin_url: https://linkedin.com/in/jtwebman
 mailto:
 
-# avatar
-avatar: https://www.gravatar.com/avatar/e87a056abd52a5d85a425b39c92b4a70?s=200
+# Avatar Image Email
+avatar: jtwebman@gmail.com

@@ -8,6 +8,7 @@ tags:
   - Elm
   - Phoenix
 author: JT Turner
+comments: true
 ---
 I am bummed that I still haven’t been able to convince work that Elixir is the perfect language to solve their problem, probably because I haven’t really built anything in production with it yet. So my next posts are going to be building my personal blog and site using it. My personal site has been down for the last couple of months now as I never finished moving it over to Ghost. I want to build something in Elixir and Elm so here we go. This blog is going to be a full Elixir site with Elm running the backend admin UI. It will be completely [open source](https://github.com/jtwebman/jtwebman_com).
 

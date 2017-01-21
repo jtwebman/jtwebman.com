@@ -14,7 +14,7 @@ timezone: America/Los_Angeles
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://jtwebman.com
 root: /
-permalink: blog/:category/:title/
+permalink: :category/:title/
 permalink_defaults:
 
 # Directory
@@ -39,12 +39,12 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
 
 # Category & Tag
-default_category: blog
+default_category: Programming
 category_map:
 tag_map:
 
@@ -70,8 +70,8 @@ theme: clean-jtwebman
 deploy:
   type:
 
-# Avatar Image
-avatar: https://www.gravatar.com/avatar/e87a056abd52a5d85a425b39c92b4a70?s=200
+# Avatar Image Email
+avatar: jtwebman@gmail.com
 
 # Favicon
 favicon: /favicon.ico
@@ -94,7 +94,6 @@ menu_title: JTWebMan
 # Top Menu
 menu:
   Home: /
-  Blog: /blog
   T-Shirts: http://www.zazzle.com/jtwebman/products
   Github:
     url: https://github.com/jtwebman
@@ -114,3 +113,9 @@ menu:
 
 # Copyright
 copyright: JTWebMan, Inc.
+
+# Google Analytics Tracking ID
+google_analytics: UA-23159838-1
+
+# Disqus comments
+disqus_shortname: jtwebman

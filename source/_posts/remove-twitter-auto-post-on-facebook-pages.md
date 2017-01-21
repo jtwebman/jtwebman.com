@@ -7,6 +7,7 @@ tags:
   - Facebook
   - Twitter
 author: JT Turner
+comments: true
 ---
 I spent 30 minutes trying to figure out how to remove the auto post to twitter from a Facebook page. Well, you have to look no more as you can do it from the link below. Someone needs to slap Facebook around and have them add it to the page settings somewhere.
 

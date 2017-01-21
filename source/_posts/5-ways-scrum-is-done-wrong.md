@@ -7,6 +7,7 @@ tags:
   - scrum
   - agile
 author: JT Turner
+comments: true
 ---
 So I have been thinking about this for a while now. I have worked at multiple companies that have changed to Scrum agile process. They have had their ups and downs but in the end I think they all failed in the real reason to do agile. Scrum was first originally defined as "a flexible, holistic product development strategy where a development team works as a unit to reach a common goal." Everywhere I have worked flexible and holistic wasn't part of any of it. Below I am going to outline 5 ways it is done wrong and some ways it could be fixed. In the end, the real goal of delivering better software to the client.
 

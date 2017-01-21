@@ -8,6 +8,7 @@ tags:
   - Lorem Ipsum
   - Web Development
 author: JT Turner
+comments: true
 ---
 I have built many websites for customers and content seems to be the last thing they give me. So I tend to go over to [Lipsum](http://www.lipsum.com/) and generate some Lorem Ipsum text to fill the void until I get some content. If you don’t know what it is:
 

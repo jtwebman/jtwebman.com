@@ -10,6 +10,7 @@ tags:
   - Computer Programmer
   - Careers
 author: JT Turner
+comments: true
 ---
 My guess if you are reading this you might feel just like I did a few months back. I was stuck maintaining **legacy software**.
 

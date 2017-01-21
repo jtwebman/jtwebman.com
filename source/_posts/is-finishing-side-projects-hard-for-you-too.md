@@ -8,6 +8,7 @@ tags:
   - Marketing
   - Goals
 author: JT Turner
+comments: true
 ---
 For the last 15 years or so I have had this drive to get out on my own and to build some software project that I could get behind and go the distance. I have some great ideas like I am sure you all have as well. I research them, find out yes, I could do this easily. I buy a domain and start programming them.
 
