@@ -5,7 +5,8 @@ var disqusShortName = config.disqus_shortname || theme.disqus_shortname;
 <script>
 <% if(page && page.permalink) {%>
 var disqus_config = function () {
-this.page.url = <%- page.permalink %>;
+this.page.url = '<%- page.permalink %>';
+this.page.identifier = '<%- page.permalink %>';
 };
 <% } %>
 (function() { // DON'T EDIT BELOW THIS LINE
