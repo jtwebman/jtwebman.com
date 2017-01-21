@@ -95,6 +95,7 @@ menu_title: JTWebMan
 menu:
   Home: /
   Blog: /blog
+  T-Shirts: http://www.zazzle.com/jtwebman/products
   Github:
     url: https://github.com/jtwebman
     icon: github
