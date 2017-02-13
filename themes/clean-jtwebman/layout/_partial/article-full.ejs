@@ -20,9 +20,6 @@
                             Posted by <%- item.author %> on
                         <% } %>
                         <%= item.date.format(config.date_format) %>
-                        <% if (item.categories && item.categories.length) {  %>
-                            in <%- partial('article-categories', {item: item}) %>
-                        <% } %>
                         <!-- Tags and categories -->
                         <% if (item.tags && item.tags.length) { %>
                         <div class="post-tags">
