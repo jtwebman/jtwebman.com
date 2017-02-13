@@ -4,7 +4,7 @@
 
 # Site
 title: JT Turner
-subtitle: Digital Marketing / Software Engineer / Questioning the Status Quo
+subtitle: Software Engineer / Digital Marketing / Questioning the Status Quo
 description: Welcome to my site! You can contact me though all the social media links below.
 author: JT Turner
 language: en
@@ -94,6 +94,7 @@ menu_title: JTWebMan
 # Top Menu
 menu:
   Home: /
+  About: /about
   T-Shirts: http://www.zazzle.com/jtwebman/products
   Github:
     url: https://github.com/jtwebman

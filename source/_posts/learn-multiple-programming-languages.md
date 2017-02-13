@@ -2,8 +2,9 @@
 title: Learn Multiple Programming Languages
 date: 2015-02-07 20:02:28
 categories:
-  - Programming
+  - blog
 tags:
+  - Programming
   - languages
   - learning
 author: JT Turner

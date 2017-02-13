@@ -2,11 +2,11 @@
 title: Are you tired of the boring Lorem Ipsum?
 date: 2011-09-11 19:34:26
 categories:
-  - Design
+  - blog
 tags:
-  - Design
-  - Lorem Ipsum
-  - Web Development
+  - design
+  - lorem ipsum
+  - web development
 author: JT Turner
 comments: true
 ---

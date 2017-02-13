@@ -2,8 +2,9 @@
 title: Elixir & Elm — Getting the basics setup
 date: 2016-06-06 08:35:53
 categories:
-  - Programming
+  - blog
 tags:
+  - Programming
   - Elixir
   - Elm
   - Phoenix

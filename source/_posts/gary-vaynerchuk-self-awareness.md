@@ -2,8 +2,9 @@
 title: Gary Vaynerchuk Self-Awareness
 date: 2016-06-29 15:02:28
 categories:
-  - Soft Skills
+  - blog
 tags:
+  - Soft Skills
   - Gary Vaynerchuk
   - Self Discovery
 author: JT Turner

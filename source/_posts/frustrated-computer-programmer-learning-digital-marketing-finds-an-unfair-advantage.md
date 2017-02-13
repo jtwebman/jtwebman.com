@@ -4,8 +4,9 @@ title: >-
   Advantage
 date: 2016-07-07 19:45:22
 categories:
-  - Marketing
+  - blog
 tags:
+  - Marketing
   - Digital Marketing
   - Computer Programmer
   - Careers

@@ -2,8 +2,9 @@
 title: Remove Twitter Auto Post on Facebook Pages
 date: 2011-05-23 19:55:12
 categories:
-  - Social Media
+  - blog
 tags:
+  - Social Media
   - Facebook
   - Twitter
 author: JT Turner

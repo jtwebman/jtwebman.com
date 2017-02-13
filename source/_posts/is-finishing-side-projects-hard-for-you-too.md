@@ -2,8 +2,9 @@
 title: Is Finishing Side Projects Hard for You Too?
 date: 2016-10-29 21:44:22
 categories:
-  - Programming
+  - blog
 tags:
+  - Programming
   - Side Projects
   - Marketing
   - Goals

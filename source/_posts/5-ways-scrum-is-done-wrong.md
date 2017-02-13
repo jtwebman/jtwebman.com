@@ -2,8 +2,9 @@
 title: 5 Ways Scrum is Done Wrong
 date: 2015-02-14 13:02:28
 categories:
-  - Programming
+  - blog
 tags:
+  - programming
   - scrum
   - agile
 author: JT Turner
