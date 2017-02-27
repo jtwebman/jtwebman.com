@@ -27,5 +27,3 @@ This blog, my newsletter, and my social media feeds are my journey to now teachi
 Look I have strong opinions about programming and system design but I also love to listen to others and hear opposing points. I have no problems changing my mind. So if you watch or read anything I put out let me know in the comments if you agree or disagree and why. I want these things to all be open conversations.
 
 In the end, it is about designing a system that can be maintained, changed without huge technical debt creeping in the system, and making the crazy deadlines that sales and product managers seem to set.
-
-<script async id="_ck_168344" src="https://forms.convertkit.com/168344?v=6"></script>
